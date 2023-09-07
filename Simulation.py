@@ -8,18 +8,8 @@ import random
 from classes import Physics_Body, Pgame_Body, Node
 import gc
 
-############ Kinda finished ####################
-# The sim seems to work, I was kind of expecting a faster runtime but it seems that I would have to change
-# language for that. I have verified that the algorithm is working since its time complexity is in fact O(nlog(n)).
-# I am still a bit unsure how to handle when two bodies get really close, how do the pro's handle it??
-# My current handling of it is in two parts; The resolution of the quadtree and a maximum force limit.
-# I could possibly implement some type of collision-merger code...?
-# Right now my overall feeling is that I want to wait until I have learnt a sufficient amount of C++
-# and then transfer the project to that language. This opens up the possibility of a faster runtime as well as
-# (I think) it might make a 3D implementation easier.
-
-# All in all it is a success. I guess I just have to ponder wether to finalize the project and put it on YT
-# or if I should wait for C++.
+############ Finished ####################
+# Transfer project to C++, change integration to Störmer-Verlet and make in 3-space. 
 
 
 
